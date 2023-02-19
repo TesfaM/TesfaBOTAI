@@ -1,8 +1,13 @@
-import express, { response } from 'express'
-import * as dotenv from 'dotenv'
-import cors from 'cors'
-import { Configuration, OpenAIApi } from 'openai'
-import TelegramBot from 'node-telegram-bot-api';
+// import express, { response } from 'express'
+// import * as dotenv from 'dotenv'
+// import cors from 'cors'
+// import { Configuration, OpenAIApi } from 'openai'
+// import TelegramBot from 'node-telegram-bot-api';
+const express = require('express');
+const dotenv = require('dotenv');
+const cors = require('cors');
+const { Configuration, OpenAIApi } = require('openai');
+const TelegramBot = require('node-telegram-bot-api');
 
 dotenv.config()
 
