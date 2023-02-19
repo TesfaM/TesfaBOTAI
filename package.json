@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "server": "nodemon server"
+    "start": "node --experimental-modules server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
