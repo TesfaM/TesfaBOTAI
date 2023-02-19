@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "server": "nodemon server"
+    "server": "nodemon server",
     "start": "node --experimental-modules server.js"
   },
   "dependencies": {
