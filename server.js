@@ -85,4 +85,5 @@ async function generateResponse(text) {
 }
 
 
-app.listen(8003, () => console.log('AI server started on http://localhost:8003'))
+// app.listen(8003, () => console.log('AI server started on http://localhost:8003'))
+app.listen(process.env.PORT || 8003, () => console.log('AI server started'))
